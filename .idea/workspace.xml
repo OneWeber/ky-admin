@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a504791f-7908-4acb-be01-46180a4d04c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.release" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.production.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604365581351</updated>
       <workItem from="1604365582613" duration="1133000" />
-      <workItem from="1604389385339" duration="792000" />
+      <workItem from="1604389385339" duration="2441000" />
     </task>
     <servers />
   </component>
@@ -66,6 +70,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="441" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604391536843">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="441" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1604391536843" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1604389830148">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
