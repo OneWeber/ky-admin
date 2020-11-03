@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "arrowParens": "always",
+  "singleQuote": true,
+  "endOfLine": "auto",
+  "eslintIntegration": true,
+  "tabWidth": 2,
+  "trailingComma":"es5"
+}
