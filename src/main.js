@@ -1,12 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueRouter from 'vue-router'
+
 // 引入路由
-import routes from '@/router/index'
-const router = new VueRouter({
-  mode: 'history',
-  routes: routes,
-})
+import router from '@/router/index'
+// 引入路由守卫
+import './premission'
 
 // 引入ui组件
 import '@/plugin/ui/install'

@@ -1,13 +1,10 @@
 <template>
-  <div>
-    头部
-    <router-view />
-  </div>
+  <div>设置</div>
 </template>
 
 <script>
 export default {
-  name: 'default',
+  name: 'index',
 }
 </script>
 

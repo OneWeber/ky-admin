@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a504791f-7908-4acb-be01-46180a4d04c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/home/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/Info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/Title.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/template/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/template/full.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/premission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/setting/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/default.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin/ui/ant-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin/ui/ant-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,9 +63,24 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Menu" />
       <recent name="$PROJECT_DIR$/src/plugin/ui" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ky-admin/src/view/login/index.vue" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.vue" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +93,7 @@
       <workItem from="1604365582613" duration="1133000" />
       <workItem from="1604389385339" duration="2441000" />
       <workItem from="1604986728457" duration="933000" />
-      <workItem from="1604988205611" duration="1187000" />
+      <workItem from="1604988205611" duration="9350000" />
     </task>
     <servers />
   </component>
@@ -79,22 +105,38 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="441" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1604391536843" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1604389830148">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1604996397308">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604389830148" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1604389830145">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604996397308" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1604996397307">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604389830145" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1604389830145">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604996397307" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1604996397305">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604389830145" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1604389830146">
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604996397305" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1604996397307">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604389830146" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604996397307" />
+    <state width="1419" height="204" key="GridCell.Tab.1.bottom" timestamp="1604996397310">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604996397310" />
+    <state width="1419" height="204" key="GridCell.Tab.1.center" timestamp="1604996397309">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1604996397309" />
+    <state width="1419" height="204" key="GridCell.Tab.1.left" timestamp="1604996397308">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1604996397308" />
+    <state width="1419" height="204" key="GridCell.Tab.1.right" timestamp="1604996397309">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1604996397309" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1604390087713">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

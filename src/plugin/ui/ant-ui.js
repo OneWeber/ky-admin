@@ -1,4 +1,12 @@
-import { Button, Layout } from 'ant-design-vue'
+import {
+  Button,
+  Layout,
+  Drawer,
+  Icon,
+  Tooltip,
+  Form,
+  Input,
+} from 'ant-design-vue'
 export default {
-  components: [Button, Layout],
+  components: [Button, Layout, Drawer, Icon, Tooltip, Form, Input],
 }
