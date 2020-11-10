@@ -1,4 +1,4 @@
-import { Button } from 'ant-design-vue'
+import { Button, Layout } from 'ant-design-vue'
 export default {
-  components: [Button],
+  components: [Button, Layout],
 }
