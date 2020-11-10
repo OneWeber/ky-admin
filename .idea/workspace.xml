@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a504791f-7908-4acb-be01-46180a4d04c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/router/permissions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/router-dg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/premission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/premission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <workItem from="1604365582613" duration="1133000" />
       <workItem from="1604389385339" duration="2441000" />
       <workItem from="1604986728457" duration="933000" />
-      <workItem from="1604988205611" duration="10226000" />
+      <workItem from="1604988205611" duration="10967000" />
     </task>
     <servers />
   </component>

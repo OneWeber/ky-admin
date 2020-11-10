@@ -39,11 +39,8 @@ router.beforeEach((to, from, next) => {
   next()
 })
 
-router.afterEach(() => {
-  NProgress.done() // finish progress bar
-})
-
 router.afterEach((to) => {
+  NProgress.done() // finish progress bar
   // 设置标题
   if (to.meta.title) {
     document.title = to.meta.title + ' - 后台管理系统'
