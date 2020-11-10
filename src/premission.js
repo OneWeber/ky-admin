@@ -1,9 +1,9 @@
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style
 import router from '@/router/index'
-import Util from '@/utils'
-
-const whiteList = ['login'] // no redirect whitelist
+import defaultRouter from '@/router/default'
+import dg from '@/utils/router-dg'
+const whiteList = dg(defaultRouter, []) // 路由白名单
 const loginRoutePath = '/login'
 const defaultRoutePath = '/'
 
@@ -44,9 +44,6 @@ router.afterEach(() => {
 })
 
 router.afterEach((to) => {
-  if (to.path.indexOf('/redirect') === -1 && to.meta.title) {
-    Util.openNewPage(router.app, to.meta.title, to.path, to.query)
-  }
   // 设置标题
   if (to.meta.title) {
     document.title = to.meta.title + ' - 后台管理系统'
@@ -54,5 +51,3 @@ router.afterEach((to) => {
     document.title = '后台管理系统'
   }
 })
-
-export default router

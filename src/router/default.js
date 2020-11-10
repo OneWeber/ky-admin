@@ -1,3 +1,4 @@
+// 配置不需要验证登录的默认路由
 import Layout from '@/components/template/default'
 import Full from '@/components/template/full'
 const routes = [

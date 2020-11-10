@@ -1,6 +1,7 @@
 {
-  "name": "admin",
+  "name": "后台管理系统",
   "version": "0.1.0",
+  "author": "zky",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development ADMIN_ENV=development vue-cli-service serve --mode development",
